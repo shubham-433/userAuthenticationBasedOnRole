@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div>
+      <div class="row" style="height: 100vh;">
+        <div class="col-2">
+          <div class="d-flex flex-row justify-content-center card-header">
+            {% if user.profilePic %}
+            <img style="height: 5rem; width: 5rem; border-radius: 50%;" src="{{user.profilePic.url}}" alt="not found">
+              {% else %}
+              <i class="bi bi-person-circle lg" style="font-size: 5rem;"></i>
+              {% endif %}
+            <hr>
+              
+            </div>
+            <div>
+      
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Username: {{user}}</li>
+                <li class="list-group-item">First Name: {{user.first_name}}</li>
+                <li class="list-group-item">LastName :{{user.last_name}}</li>
+                <li class="list-group-item">Email :{{user.email}}</li>
+              </ul>
+            </div>
+        </div>
+        <!-- 2nd clo  -->
+        <div class="col-6 " >
+      
+          <div class="card">
+            <div class="card-header">
+              Previous Appointment
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Details</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Previous Appointment
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Details</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Previous Appointment
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Details</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Previous Appointment
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Details</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">See Details</a>
+            </div>
+          </div>
+          
+        </div>
+        <!-- 3rd col  -->
+        <div class="col-4" style="height: 100vh;">
+
+          <div class="row card p-4">
+            <h3>Welcome To Patient Dashboard</h3>
+          </div>
+          <div class="row">
+            <div class="card h-50" >
+              <div class="card-body">
+                <h5 class="card-title">Necessary Information for Patient</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <form class="card p-4">
+              <div class="mb-3">
+                <h4>Change password</h4>
+                <label for="exampleInputEmail1" class="form-label">old Password</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">New Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+ 
+{% endblock content %}
