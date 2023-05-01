@@ -27,6 +27,7 @@ Django==4.1
 django-allauth==0.54.0
 django-cors-headers==3.13.0
 django-filter==22.1
+django-froala-editor==4.0.18
 django-phonenumber-field==7.0.0
 django-rest-framework-nested==0.0.1
 djangorestframework==3.13.1
@@ -75,6 +76,7 @@ prompt-toolkit==3.0.38
 protobuf==4.22.1
 psutil==5.9.4
 psycopg2==2.9.3
+psycopg2-binary==2.9.3
 pure-eval==0.2.2
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
