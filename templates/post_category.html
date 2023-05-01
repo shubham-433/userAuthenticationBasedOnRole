@@ -1,0 +1,12 @@
+{% load static %}
+<div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+      Category
+    </a>
+
+   {% for cat in post_category %}
+    
+    <a href="{% url 'post_category' id=cat.id %}"  class="list-group-item list-group-item-action">{{cat.name}}</a>
+    
+    {% endfor %}
+  </div>

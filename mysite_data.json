@@ -1,0 +1,911 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-05-01T05:33:04.991Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Heart Disease",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-05-01T05:33:28.698Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "dfdfd",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-05-01T06:28:22.874Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Mental Health",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-05-01T06:28:32.713Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Covid19",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-05-01T06:28:40.162Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Immunization",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-05-01T07:41:06.045Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "dfdfdf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-05-01T07:41:31.336Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "dfdfdf",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-05-01T07:41:52.050Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "covid",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-05-01T07:56:29.605Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "fdfd",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-05-01T08:52:08.810Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "cc",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-05-01T10:48:06.613Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "dfdf",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 8,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 8,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 8,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 8,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "customuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "post"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4awekb8uxybb6zw7ue4ertdvratxc7f1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYQIhL956BMMwgVQNJaVeNd9cmXej2v_f-JmJalxrXwXOcSFyEFqffDVN-ctsBPVK7d5l7W-YJ5a7Igw5568Sv6-H-HdQ06rfGUKxHMho8W_DKn0E5UwxzYGWKDQmSVzowacwGAAnBAClFIQdwTrw_0GA3WQ:1ptOOJ:hqVgJg1f2JwV-w6NGzKza4qJ9ozNg39uT9nmxDypEpg",
+    "expire_date": "2023-05-15T07:56:11.527Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7c93je32sp7o53jm34xwdq1i2sqdwt2e",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYQIhL956BMMwgVQNJaVeNd9cmXej2v_f-JmJalxrXwXOcSFyEFqffDVN-ctsBPVK7d5l7W-YJ5a7Igw5568Sv6-H-HdQ06rfGUKxHMho8W_DKn0E5UwxzYGWKDQmSVzowacwGAAnBAClFIQdwTrw_0GA3WQ:1ptM9f:er-XsyxgGEyfoB0i44Gayl-mjr-wvUkiIrg_M_nQLGQ",
+    "expire_date": "2023-05-15T05:32:55.325Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "89wabs2q3xv8gpn50bcssba8yfnag7mt",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYRO_C2hCEIsWl-56BfH9I1dCktCvj3W2TLnQzi3lv5q0SrEtJa5M5jayuyqrTb4dAT6k74AfU-6Rpqss8ot4VfdCmh4nldTvcv4MCrWxrMoTexZDRXjzn7DBa4zOe3RaGSaT3NogAxOCRsGOKjiKEzkCQ0KvPFwt6OPs:1ptPGu:2dwcxFu7Crof2Ryn1Cgd6Bn0n9Q2-fQVoZGMMEDMKeQ",
+    "expire_date": "2023-05-15T08:52:36.682Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ajfpvdn72ac6mcmejhfjdf363rfuufpk",
+  "fields": {
+    "session_data": ".eJxVjE0OwiAYRO_C2hCEIsWl-56BfH9I1dCktCvj3W2TLnQzi3lv5q0SrEtJa5M5jayuyqrTb4dAT6k74AfU-6Rpqss8ot4VfdCmh4nldTvcv4MCrWxrMoTexZDRXjzn7DBa4zOe3RaGSaT3NogAxOCRsGOKjiKEzkCQ0KvPFwt6OPs:1ptS4x:HSje4Ds7PlA39zUQ4pLubCosp9gQfXw4euQDU2DzIW0",
+    "expire_date": "2023-05-15T11:52:27.929Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "clj7hn7jawg6oozgliscwb4zuvmbcgxp",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYQIhL956BMMwgVQNJaVeNd9cmXej2v_f-JmJalxrXwXOcSFyEFqffDVN-ctsBPVK7d5l7W-YJ5a7Igw5568Sv6-H-HdQ06rfGUKxHMho8W_DKn0E5UwxzYGWKDQmSVzowacwGAAnBAClFIQdwTrw_0GA3WQ:1ptMyr:g3yWaOZLSJsSBKMmDHG5i1D2U3PkHSWlIsbi1hIhKrE",
+    "expire_date": "2023-05-15T06:25:49.560Z"
+  }
+},
+{
+  "model": "core.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$FBD2T31rt1WA426yAcTnHK$GBwrF+gVAudOa67qWjH4eTAgNx7e3pmJWhrHxU9YqFk=",
+    "last_login": "2023-05-01T12:24:39.971Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-05-01T05:31:33.719Z",
+    "is_doctor": false,
+    "profilePic": "",
+    "address": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$bDG0RMW1hFoBbBCxQbd9GV$U8st+j9SeAMjQlWcCWLplXMI7YquVDgsCH3tYNf+qEI=",
+    "last_login": "2023-05-01T12:25:16.364Z",
+    "is_superuser": false,
+    "username": "doctor",
+    "first_name": "doctor",
+    "last_name": "doctor",
+    "email": "lucky@111gmail.comd",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-05-01T08:04:39.677Z",
+    "is_doctor": true,
+    "profilePic": "profileImage/shubham_ErH9srY.jpg",
+    "address": "thane",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.category",
+  "pk": 1,
+  "fields": {
+    "name": "Heart Disease"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 2,
+  "fields": {
+    "name": "Mental Health"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 3,
+  "fields": {
+    "name": "Covid19"
+  }
+},
+{
+  "model": "core.category",
+  "pk": 4,
+  "fields": {
+    "name": "Immunization"
+  }
+},
+{
+  "model": "core.post",
+  "pk": 1,
+  "fields": {
+    "title": "dfdfd",
+    "slug": "dfdfd",
+    "body": "<p>dfd</p>",
+    "publish": "2023-05-01",
+    "author": 1,
+    "image": "blogImage/WhatsApp_Image_2023-04-21_at_3.33.18_PM_hZEsbbT.jpeg",
+    "created": "2023-05-01T05:33:28.692Z",
+    "updated": "2023-05-01T05:33:28.692Z",
+    "status": "PB",
+    "category": 1
+  }
+},
+{
+  "model": "core.post",
+  "pk": 2,
+  "fields": {
+    "title": "dfdfdf",
+    "slug": "dfdfdfucdtz",
+    "body": "<p>dfdfdddd</p>",
+    "publish": "2023-05-01",
+    "author": 1,
+    "image": "blogImage/no.jpg",
+    "created": "2023-05-01T07:41:06.039Z",
+    "updated": "2023-05-01T07:41:06.039Z",
+    "status": "PB",
+    "category": 1
+  }
+},
+{
+  "model": "core.post",
+  "pk": 3,
+  "fields": {
+    "title": "covid",
+    "slug": "covid",
+    "body": "<p>dfdfd</p>",
+    "publish": "2023-05-01",
+    "author": 1,
+    "image": "blogImage/gpt.webp",
+    "created": "2023-05-01T07:41:52.049Z",
+    "updated": "2023-05-01T07:41:52.049Z",
+    "status": "PB",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 4,
+  "fields": {
+    "title": "fdfd",
+    "slug": "fdfd",
+    "body": "<p>ddf</p>",
+    "publish": "2023-05-01",
+    "author": 1,
+    "image": "blogImage/RTG-Mens-T-Shirt.webp",
+    "created": "2023-05-01T07:56:29.589Z",
+    "updated": "2023-05-01T07:56:29.589Z",
+    "status": "PB",
+    "category": 2
+  }
+},
+{
+  "model": "core.post",
+  "pk": 5,
+  "fields": {
+    "title": "ss",
+    "slug": "ss",
+    "body": "<p><u>ss</u></p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/tumer.jpg",
+    "created": "2023-05-01T08:40:21.244Z",
+    "updated": "2023-05-01T08:40:21.244Z",
+    "status": "PB",
+    "category": 2
+  }
+},
+{
+  "model": "core.post",
+  "pk": 6,
+  "fields": {
+    "title": "cc",
+    "slug": "cc0s2gy",
+    "body": "<p>cc</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/WhatsApp_Image_2023-04-21_at_3.33.18_PM_zYqhzXi.jpeg",
+    "created": "2023-05-01T08:51:30.350Z",
+    "updated": "2023-05-01T08:51:30.350Z",
+    "status": "PB",
+    "category": 2
+  }
+},
+{
+  "model": "core.post",
+  "pk": 7,
+  "fields": {
+    "title": "This Tool Could Be Key to Preventing the Next Pandemic",
+    "slug": "this-tool-could-be-key-to-preventing-the-next-pandemic",
+    "body": "<p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id=\"isPasted\">We discover a new microbial threat, on average, every year. And that&rsquo;s in addition to the hundreds of viruses, bacteria, and fungi we already know about that can cause disease in humans, become increasingly resistant to antimicrobials, and spread to new areas or in new ways.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><mark style=\"box-sizing: inherit; cursor: pointer; background-color: rgb(232, 243, 232); color: currentcolor;\">Our world is increasingly interconnected. A new infectious disease threat can spread across the globe in just 36 hours. Climate change and human intrusions into previously untouched wilderness areas heighten the risk of animal diseases infecting and spreading among humans</mark>. Once a disease takes hold in a population, it&rsquo;s extremely hard to eradicate. Only two diseases &mdash; smallpox in humans and rinderpest in cattle &mdash; have been eradicated.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Given these factors, another pandemic threat is inevitable and could emerge anytime from anywhere. That may sound scary, but there are steps countries and communities around the world can take to reduce this risk and stop outbreaks from escalating. This isn&rsquo;t theoretical &mdash;&nbsp;<a href=\"https://preventepidemics.org/epidemics-that-didnt-happen/\" rel=\"noopener ugc nofollow\" target=\"_blank\" style=\"box-sizing: inherit; color: inherit; text-decoration: underline; -webkit-tap-highlight-color: transparent;\">epidemics can and have been prevented</a>.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>One key? Improving how fast we detect and respond to outbreaks. Countries are coalescing around a new, galvanizing global target of &ldquo;7&ndash;1&ndash;7&rdquo; &mdash; aiming for every suspected and actual outbreak to be detected within 7 days, reported within 1 day, and have all essential control measures in place within the next 7 days. This gives countries a tool to use to assess and improve their efforts. Concrete goals for public health programs have worked well before, such as the&nbsp;<a href=\"https://www.unaids.org/en/resources/909090\" rel=\"noopener ugc nofollow\" target=\"_blank\" style=\"box-sizing: inherit; color: inherit; text-decoration: underline; -webkit-tap-highlight-color: transparent;\">90&ndash;90&ndash;90 target</a> (now 95&ndash;95&ndash;95 for 2030) which drove down AIDS deaths.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>In a&nbsp;<a href=\"https://doi.org/10.1016/S2214-109X(23)00133-X\" rel=\"noopener ugc nofollow\" target=\"_blank\" style=\"box-sizing: inherit; color: inherit; text-decoration: underline; -webkit-tap-highlight-color: transparent;\">new study</a> for Lancet Global Health, Resolve to Save Live&rsquo;s Prevent Epidemics team and global colleagues applied the 7&ndash;1&ndash;7 approach to understand outbreak detection and control in 41 public health events in Brazil, Ethiopia, Liberia, Nigeria, and Uganda between 2018 and 2022.</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/1_2oEWSYYYPaVGnH6-tzxGmw.webp",
+    "created": "2023-05-01T09:25:46.432Z",
+    "updated": "2023-05-01T09:25:46.432Z",
+    "status": "PB",
+    "category": 1
+  }
+},
+{
+  "model": "core.post",
+  "pk": 8,
+  "fields": {
+    "title": "dfdf",
+    "slug": "dfdfst85v",
+    "body": "<p>fdfd</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/WhatsApp_Image_2023-04-21_at_3.33.18_PM_qoU9qiS.jpeg",
+    "created": "2023-05-01T10:22:15.373Z",
+    "updated": "2023-05-01T10:22:15.373Z",
+    "status": "DF",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 9,
+  "fields": {
+    "title": "dfdf",
+    "slug": "dfdfvy4kl",
+    "body": "<p>fdfd</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/WhatsApp_Image_2023-04-21_at_3.33.18_PM_RJXhWtT.jpeg",
+    "created": "2023-05-01T10:22:44.022Z",
+    "updated": "2023-05-01T10:22:44.022Z",
+    "status": "PB",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 10,
+  "fields": {
+    "title": "dd",
+    "slug": "dd",
+    "body": "<p>ddd</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/no_5fbzqoP.jpg",
+    "created": "2023-05-01T10:23:14.697Z",
+    "updated": "2023-05-01T10:23:14.697Z",
+    "status": "PB",
+    "category": 1
+  }
+},
+{
+  "model": "core.post",
+  "pk": 11,
+  "fields": {
+    "title": "ddd",
+    "slug": "ddd",
+    "body": "<p>ddd</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/n.jpg",
+    "created": "2023-05-01T10:25:07.191Z",
+    "updated": "2023-05-01T10:25:07.191Z",
+    "status": "PB",
+    "category": 4
+  }
+},
+{
+  "model": "core.post",
+  "pk": 12,
+  "fields": {
+    "title": "dd",
+    "slug": "dd8k45w",
+    "body": "<p>dd</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/n_75oxxrn.jpg",
+    "created": "2023-05-01T10:25:31.322Z",
+    "updated": "2023-05-01T10:25:31.322Z",
+    "status": "DF",
+    "category": 2
+  }
+},
+{
+  "model": "core.post",
+  "pk": 13,
+  "fields": {
+    "title": "ff",
+    "slug": "ff",
+    "body": "<p>ff</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/n_cF9t88x.jpg",
+    "created": "2023-05-01T10:25:50.507Z",
+    "updated": "2023-05-01T10:25:50.507Z",
+    "status": "PB",
+    "category": 1
+  }
+},
+{
+  "model": "core.post",
+  "pk": 14,
+  "fields": {
+    "title": "dd",
+    "slug": "ddtyo5o",
+    "body": "<p>dd</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/1_mjPP6HrzYcPqyUa-1Va40w.webp",
+    "created": "2023-05-01T10:26:44.582Z",
+    "updated": "2023-05-01T10:26:44.582Z",
+    "status": "PB",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 15,
+  "fields": {
+    "title": "Search Medium Write Sign up  Sign In    Top highlight  You have 2 free member-only stories left this month. Sign up for Medium and get an extra one.   Member-only story  “Just Get a Babysitter” — And Other Unhelpful Tips for Overwhelmed Parents",
+    "slug": "search-medium-write-sign-up-sign-in-top-highlight-you-have-2-free-member-only-stories-left-this-month-sign-up-for-medium-and-get-an-extra-one-member-only-story-just-get-a-babysitter-and-other-unhelpful-tips-for-overwhelmed-parents",
+    "body": "<p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id=\"isPasted\">It&rsquo;s Saturday night, and I&rsquo;m frantically scurrying around the kitchen. I&rsquo;ve just spattered myself with neon powdered cheese, which was in the process of dissolving into butter and milk.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><em style=\"box-sizing: inherit; font-style: italic;\">Fuck!</em></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>My evening plans consist of nothing more than burgers and a movie with a man who has seen me in all forms of dress (and undress), and who thinks I look sexy in a hoodie. But we&rsquo;re venturing out in the world without the children, and that is always a Big Deal. It calls for a shirt that is not in the weekly laundry rotation, and if time permits, maybe even a few swipes of mascara. Dangly earrings, perhaps, if I&rsquo;m feeling really frisky.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The 15 minutes before the babysitter arrives are always a blur. Somewhere in there is a heavily processed and hastily consumed dinner for the kids. A last-ditch attempt to make the bathroom not gross. A wet rag passed over the jewels of urine that consistently glisten off the toilet seat and its surrounding environs. A violent scouring of the sink basin to remove encrusted toothpaste entrails and other unidentified substances.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The hasty bathroom scrubbing is followed by a jog around the house in search of other grossness. Errant snacks under chairs, mildewed towels hunched in corners, a vaguely sticky something smeared across the coffee table.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>It&rsquo;s not that I feel the need to impress the 15-year-old that my partner is currently picking up. I&rsquo;m not vacuuming or mopping or dusting, for Pete&rsquo;s sake. I&rsquo;m just de-grossifying. When I was an adolescent, I babysat at a house that was reliably gross. The kind of house where you&rsquo;re afraid to sit down and you&rsquo;d rather hold it than use the bathroom. I don&rsquo;t want&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">our</em> house to be&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">that</em> house.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>My partner arrives with the babysitter, and my son is clinging to my leg asking why we have to go, and I&rsquo;m going over all the reminders about bedtimes and after-dinner snack guidelines and screen time rules and logins and Internet passwords. My mouth and voice form the words: &ldquo;Please feel free to call or text if you have any questions.&rdquo;</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>But my eyes say:&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">&ldquo;Please don&rsquo;t call or text unless someone is bleeding profusely from their head or the house is burning down. Even then, start with 911.&rdquo;</em></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Of course, either way, I know I will be checking my phone throughout the course of the night, just to make sure there are no head wounds or house fires that may require my attention.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><img src=\"http://127.0.0.1:8000/media/uploads/froala_editor/images/tumer.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib\"></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><br></p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/1_2oEWSYYYPaVGnH6-tzxGmw_k1g33Jq.webp",
+    "created": "2023-05-01T11:54:18.353Z",
+    "updated": "2023-05-01T11:54:18.353Z",
+    "status": "PB",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 16,
+  "fields": {
+    "title": "Just Get a Babysitter” — And Other Unhelpful Tips for Overwhelmed Parents",
+    "slug": "just-get-a-babysitter-and-other-unhelpful-tips-for-overwhelmed-parents",
+    "body": "<p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id=\"isPasted\">My evening plans consist of nothing more than burgers and a movie with a man who has seen me in all forms of dress (and undress), and who thinks I look sexy in a hoodie. But we&rsquo;re venturing out in the world without the children, and that is always a Big Deal. It calls for a shirt that is not in the weekly laundry rotation, and if time permits, maybe even a few swipes of mascara. Dangly earrings, perhaps, if I&rsquo;m feeling really frisky.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The 15 minutes before the babysitter arrives are always a blur. Somewhere in there is a heavily processed and hastily consumed dinner for the kids. A last-ditch attempt to make the bathroom not gross. A wet rag passed over the jewels of urine that consistently glisten off the toilet seat and its surrounding environs. A violent scouring of the sink basin to remove encrusted toothpaste entrails and other unidentified substances.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The hasty bathroom scrubbing is followed by a jog around the house in search of other grossness. Errant snacks under chairs, mildewed towels hunched in corners, a vaguely sticky something smeared across the coffee table.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>It&rsquo;s not that I feel the need to impress the 15-year-old that my partner is currently picking up. I&rsquo;m not vacuuming or mopping or dusting, for Pete&rsquo;s sake. I&rsquo;m just de-grossifying. When I was an adolescent, I babysat at a house that was reliably gross. The kind of house where you&rsquo;re afraid to sit down and you&rsquo;d rather hold it than use the bathroom. I don&rsquo;t want&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">our</em> house to be&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">that</em> house.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>My partner arrives with the babysitter, and my son is clinging to my leg asking why we have to go, and I&rsquo;m going over all the reminders about bedtimes and after-dinner snack guidelines and screen time rules and logins and Internet passwords. My mouth and voice form the words: &ldquo;Please feel free to call or text if you have any questions.&rdquo;</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>But my eyes say:&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">&ldquo;Please don&rsquo;t call or text unless someone is bleeding profusely from their head or the house is burning down. Even then, start with 911.&rdquo;</em></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Of course, either way, I know I will be checking my phone throughout the course of the night, just to make sure there are no head wounds or house fires that may require my attention.</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/1__y2z7ALbmlu0THQJSQJ7aQ.webp",
+    "created": "2023-05-01T11:58:41.616Z",
+    "updated": "2023-05-01T11:58:41.616Z",
+    "status": "PB",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 17,
+  "fields": {
+    "title": "Just Get a Babysitter” — And Other Unhelpful Tips for Overwhelmed Parents",
+    "slug": "just-get-a-babysitter-and-other-unhelpful-tips-for-overwhelmed-parentsodv3o",
+    "body": "<p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id=\"isPasted\">My evening plans consist of nothing more than burgers and a movie with a man who has seen me in all forms of dress (and undress), and who thinks I look sexy in a hoodie. But we&rsquo;re venturing out in the world without the children, and that is always a Big Deal. It calls for a shirt that is not in the weekly laundry rotation, and if time permits, maybe even a few swipes of mascara. Dangly earrings, perhaps, if I&rsquo;m feeling really frisky.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The 15 minutes before the babysitter arrives are always a blur. Somewhere in there is a heavily processed and hastily consumed dinner for the kids. A last-ditch attempt to make the bathroom not gross. A wet rag passed over the jewels of urine that consistently glisten off the toilet seat and its surrounding environs. A violent scouring of the sink basin to remove encrusted toothpaste entrails and other unidentified substances.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The hasty bathroom scrubbing is followed by a jog around the house in search of other grossness. Errant snacks under chairs, mildewed towels hunched in corners, a vaguely sticky something smeared across the coffee table.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>It&rsquo;s not that I feel the need to impress the 15-year-old that my partner is currently picking up. I&rsquo;m not vacuuming or mopping or dusting, for Pete&rsquo;s sake. I&rsquo;m just de-grossifying. When I was an adolescent, I babysat at a house that was reliably gross. The kind of house where you&rsquo;re afraid to sit down and you&rsquo;d rather hold it than use the bathroom. I don&rsquo;t want&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">our</em> house to be&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">that</em> house.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>My partner arrives with the babysitter, and my son is clinging to my leg asking why we have to go, and I&rsquo;m going over all the reminders about bedtimes and after-dinner snack guidelines and screen time rules and logins and Internet passwords. My mouth and voice form the words: &ldquo;Please feel free to call or text if you have any questions.&rdquo;</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>But my eyes say:&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">&ldquo;Please don&rsquo;t call or text unless someone is bleeding profusely from their head or the house is burning down. Even then, start with 911.&rdquo;</em></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Of course, either way, I know I will be checking my phone throughout the course of the night, just to make sure there are no head wounds or house fires that may require my attention.</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/1__y2z7ALbmlu0THQJSQJ7aQ_VzB9LHj.webp",
+    "created": "2023-05-01T12:03:37.875Z",
+    "updated": "2023-05-01T12:03:37.875Z",
+    "status": "PB",
+    "category": 3
+  }
+},
+{
+  "model": "core.post",
+  "pk": 18,
+  "fields": {
+    "title": "dd",
+    "slug": "ddev5f3",
+    "body": "<p>dfdfdfdfd</p><p><br></p><p><img src=\"http://127.0.0.1:8000/media/uploads/froala_editor/images/tumer_u36G4GL.jpg\" style=\"width: 300px;\" class=\"fr-fic fr-dib\"></p><p>fff</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/aws-academy-graduate-aws-academy-cloud-foundations_fluV1h0.png",
+    "created": "2023-05-01T12:19:41.090Z",
+    "updated": "2023-05-01T12:19:41.090Z",
+    "status": "PB",
+    "category": 4
+  }
+},
+{
+  "model": "core.post",
+  "pk": 19,
+  "fields": {
+    "title": "Godmother of Grunge Tina Bell Set the Stage for ’90s Rock with Bam Bam",
+    "slug": "godmother-of-grunge-tina-bell-set-the-stage-for-90s-rock-with-bam-bam",
+    "body": "<p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;' id=\"isPasted\">Women of color have had a tough break in rock. If they&rsquo;re a woman of color, you must be a hip-hop, soul, or R&amp;B artist. There are no other options.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><mark style=\"box-sizing: inherit; cursor: pointer; background-color: rgb(232, 243, 232); color: currentcolor;\">Sister Rosetta Tharpe invented rock and roll, yet her male contemporaries took charge. Rosetta Tharpe had her struggles, given she was a Black woman in the 1940s. So, it isn&rsquo;t taboo that an African American woman forty years later will succeed in rock.</mark></p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>It isn&rsquo;t the case.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>In the early &rsquo;80s, a four-piece out of Seattle, Washington, played music categorized as Grunge. Not only did they have an unheard-of sound, but they also had a powerful yet elegant frontwoman.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Said woman was Tina Bell: a Seattle native who fronted Bam Bam. Alongside Bell were guitarist and husband Tommy Martin. Scotty &ldquo;Buttocks&rdquo; Ledgerwood joined them on bass and Matt Cameron on drums.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Matt Cameron became the drummer in Soundgarden and Pearl Jam when he quit Bam Bam. Tom Hendrickson replaced him and solidified the lineup thereupon.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Bam Bam had humble beginnings, like all bands around the 1980s and 1990s. Tina Bell and Tommy Martin had an ad in The Rocket for bandmates. Likewise, Ledgerwood and Cameron answered Bam Bam&rsquo;s flyer to start their pioneering rock band.</p><figure style='box-sizing: inherit; margin: 56px auto 0px; clear: both; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><div tabindex=\"0\" style=\"box-sizing: inherit; width: 680px; position: relative; cursor: zoom-in; z-index: auto; transition: transform 300ms cubic-bezier(0.2, 0, 0.2, 1) 0s;\"><div style=\"box-sizing: inherit; margin-left: auto; margin-right: auto; max-width: 1275px;\"><source srcset=\"https://miro.medium.com/v2/resize:fit:640/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 1400w\" sizes=\"(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px\" type=\"image/webp\" style=\"box-sizing: inherit;\"><source data-testid=\"og\" srcset=\"https://miro.medium.com/v2/resize:fit:640/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 640w, https://miro.medium.com/v2/resize:fit:720/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 720w, https://miro.medium.com/v2/resize:fit:750/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 750w, https://miro.medium.com/v2/resize:fit:786/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 786w, https://miro.medium.com/v2/resize:fit:828/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 828w, https://miro.medium.com/v2/resize:fit:1100/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 1100w, https://miro.medium.com/v2/resize:fit:1400/1*GEn-okh2_uhzi-68pIXbGQ.jpeg 1400w\" sizes=\"(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px\" style=\"box-sizing: inherit;\"><img alt=\"\" width=\"700\" height=\"427\" src=\"http://127.0.0.1:8000/media/uploads/froala_editor/images/1682943961686.png\" style=\"box-sizing: inherit; background-color: rgb(255, 255, 255); width: 680px; max-width: 100%; height: auto;\" class=\"fr-fic fr-dii\"></div></div><figcaption data-selectable-paragraph=\"\" style='box-sizing: inherit; font-weight: 400; font-size: 14px; line-height: 20px; color: rgb(117, 117, 117); max-width: 728px; font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; margin-left: auto; margin-right: auto; margin-top: 10px; text-align: center;'>Bam Bam is a portmanteau of Tina Bell and Tommy Martin&rsquo;s last name. Image Credit:&nbsp;<a href=\"https://buttocksproductions.com/bam-bam-photos\" rel=\"noopener ugc nofollow\" target=\"_blank\" style=\"box-sizing: inherit; color: inherit; text-decoration: underline; -webkit-tap-highlight-color: transparent;\">Buttocks Productions</a></figcaption></figure><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The pieces were aligned for Bam Bam to succeed &mdash; they were at the right place and time. However, the industry had other plans. No one was ready for a rock band fronted by a Black woman.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Tina Bell felt this discourse no matter if the audience liked them. She had to face racial slurs and confrontations on stage. One conflict with skinheads got ugly when Bell bashed their heads with her mic during a live set.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Regardless, it didn&rsquo;t stop Bam Bam from pursuing their music. Melvins would open for them in their live concerts, and Kurt Cobain was their roadie. They even became the first band to record at C/Z and Reciprocal Records by engineer Chris Hanzek and producer Jack Endino.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Hanzek and Endino didn&rsquo;t publicize Bam Bam&rsquo;s songs until 2019 with&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">Free Fall From Space,&nbsp;</em>and<em style=\"box-sizing: inherit; font-style: italic;\">&nbsp;</em>Bric-a-Brac released&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">Villains (Also Wear White)</em> in 2021.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Those recordings show a band full of passion, charisma, and vigor. The guitars are raucous and heavy, mixing punk&rsquo;s rawness and metal&rsquo;s high fidelity. The bass is bouncy and groovy, and the drums have a kick. And, of course, Tina Bell roars through each track.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>In the opening to&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">Free Fall From Space,</em> &ldquo;World of Your Future,&rdquo; Tina Bell&rsquo;s harsh vocals radiate over the sludgy instrumental. Her contralto when she says &ldquo;your future&rdquo; gets me every time. Next, in &ldquo;It Stinks,&rdquo; Bell shouts her agony alongside her bandmates.</p><figure style='box-sizing: inherit; margin: 56px 0px 0px; clear: both; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><div style=\"box-sizing: inherit; display: block; overflow: hidden; position: relative; margin: auto;\"><div style=\"box-sizing: inherit; display: block; padding-bottom: 510px; height: 0px;\"><iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZhr10b1mkNM%3Flist%3DOLAK5uy_nJllbcfiv-LZDT8UXqv0ABz_iUK3vusHc&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZhr10b1mkNM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZhr10b1mkNM%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube\" allowfullscreen=\"\" frameborder=\"0\" height=\"480\" width=\"640\" title=\"World of Your Future\" scrolling=\"no\" style=\"box-sizing: inherit; width: 680px; top: 0px; left: 0px; height: 510px; position: absolute;\"></iframe></div></div></figure><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Things slow down in &ldquo;Ground Zero&rdquo; and &ldquo;I&rsquo;m Dead.&rdquo; The droning instrumental intensifies Tina Bell&rsquo;s alluring vocals in the tracks, putting the divas and other female rockers to shame.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>The EP,&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">Villains (Also Wear White)</em> also has powerful songs. Alongside&nbsp;<em style=\"box-sizing: inherit; font-style: italic;\">Free Fall From Space</em>, it shows a band with promise. Yet, their potential was tarnished by circumstance. Bam Bam didn&rsquo;t find success, given Bell&rsquo;s race. Granted, other factors played into why they aren&rsquo;t remembered.</p><figure style='box-sizing: inherit; margin: 56px 0px 0px; clear: both; color: rgba(0, 0, 0, 0.8); font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><div style=\"box-sizing: inherit; display: block; overflow: hidden; position: relative; margin: auto;\"><div style=\"box-sizing: inherit; display: block; padding-bottom: 510px; height: 0px;\"><iframe src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FOpB3vR-IMPQ%3Flist%3DOLAK5uy_nJllbcfiv-LZDT8UXqv0ABz_iUK3vusHc&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DOpB3vR-IMPQ&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FOpB3vR-IMPQ%2Fhqdefault.jpg&key=a19fcc184b9711e1b4764040d3dc5c07&type=text%2Fhtml&schema=youtube\" allowfullscreen=\"\" frameborder=\"0\" height=\"480\" width=\"640\" title=\"Ground Zero\" scrolling=\"no\" style=\"box-sizing: inherit; width: 680px; top: 0px; left: 0px; height: 510px; position: absolute;\"></iframe></div></div></figure><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Tina Bell and Tommy Martin were married and had a child (TJ Martin) when Bam Bam began. They were young, in love, and ready to make music. They played gigs across Seattle venues (e.g., The Grey Door.) They had memorable concerts, yet they couldn&rsquo;t gain traction.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>After that, Bell and Martin moved to London, England, given Bam Bam floundered in Seattle. Unfortunately, their plan didn&rsquo;t work out. This caused Bell and Martin&rsquo;s romance to falter. They filled their days with shouting matches, destroying furniture and guitars.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>They then moved back to Seattle, thus continuing where they left off. Since the scene left them behind, Tina Bell quit Bam Bam. The band was an instrumental three-piece until Martin called it quits.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Bell and Martin separated in the &rsquo;90s after Bam Bam fell apart. Though Martin wasn&rsquo;t in a band, he tried creating music to no avail.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Tina Bell wouldn&rsquo;t feel any regrets about being a rock icon. Tina Bell lived her life as a depressed addict. Bell did what she could in a world that chewed her up and spat her out. She would write lyrics and study astrology in her Las Vegas apartment.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>She lived a reclusive life until she died in 2012 of Cirrhosis of the liver.</p><p data-selectable-paragraph=\"\" style='box-sizing: inherit; margin: 2em 0px -0.46em; font-weight: 400; color: rgb(41, 41, 41); font-family: source-serif-pro, Georgia, Cambria, \"Times New Roman\", Times, serif; word-break: break-word; font-style: normal; line-height: 32px; letter-spacing: -0.003em; font-size: 20px; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>She was 55 years too young.</p>",
+    "publish": "2023-05-01",
+    "author": 2,
+    "image": "blogImage/1_laczrRGv23HsN_vu9JJ7fw.webp",
+    "created": "2023-05-01T12:26:33.018Z",
+    "updated": "2023-05-01T12:26:33.018Z",
+    "status": "PB",
+    "category": 3
+  }
+}
+]

@@ -1,0 +1,59 @@
+{%extends 'base.html'%}
+
+{% load blog_tags %}
+{% load static %}
+{%block content%}
+
+<style>
+  :-webkit-scrollbar {
+  display: none;
+}
+</style>
+<div class="d-flex">
+<div class="col-sm-9" >
+
+  <div class="container d-sm-flex flex-wrap mx-auto justify-content-center " style="height: 100vh; overflow-y: scroll;">
+      <!-- <div class="d-sm-flex"> -->
+        {% for post in posts %}
+         <div class="card mx-2 my-2 shadow-lg  mb-5 bg-body rounded " style="width: 20rem;height:400px;">
+          <a href="{{post.get_absolute_url}}"><img class="card-img-top img-fluid" style="object-fit: cover; height: 200px; width: 100%;" src=" {{post.image.url}}" alt="not found"></a>
+          <a href="{{post.get_absolute_url}}">
+            
+          </a>
+         <div class="card-body">
+           <h5 class="card-title "><a class="text-decoration-none" href="{{post.get_absolute_url}}"  class="card-title text-center">{{post.title|truncatechars:50}}</a></h5>
+           
+           <div class="   text-center">
+            <button class="btn btn-primery"><a href="{{post.get_absolute_url}}" class="btn btn-primary">Read more</a></button>
+             <div class="d-flex flex-wrap justify-content-center">
+              <h6 class="card-title px-2">Author :{{post.author}}</h6>
+             <h6 class="card-title px-2 text-muted ">{{post.publish | timesince}}</h6>
+             </div>
+               
+            </div>
+          </div>
+        </div>
+      {%endfor%}
+  
+     </div>
+</div>
+
+     <div id="sidebar"class="col-sm-3 bg-light shadow-lg p-3  bg-body rounded " style="min-height:100vh">
+        <!-- FOR CATEGORY -->
+        {% post_category  %}
+        <div>
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+           Total Number of Posts {% total_posts %}
+          </a>
+          {% show_latest_posts %}
+        </div>
+     </div>
+
+      
+</div>
+
+
+
+
+
+{%endblock content%}

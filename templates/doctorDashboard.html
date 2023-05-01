@@ -1,19 +1,17 @@
-{% extends 'base.html' %}
-{% load static %}
+{%extends 'base.html'%}
 
-{% block content %}
+{% load blog_tags %}
+{% load static %}
+{%block content%}
+
 <style>
-  
-   #maincontainer{
-    display: flex;
-    flex-direction:row;
-   }
-  
+  :-webkit-scrollbar {
+  display: none;
+}
 </style>
-    <div>
-      <div class="row" style="height: 100vh;">
-        <div class="col-2">
-          <div class="d-flex flex-row justify-content-center card-header">
+<div class="d-flex">
+    <div id="sidebar"class="col-sm-3 bg-light shadow-lg p-3  bg-body rounded " style="min-height:100vh">
+        <div class="d-flex flex-row justify-content-center card-header">
             {% if user.profilePic %}
                 <img style="height: 5rem; width: 5rem; border-radius: 50%;" src="{{user.profilePic.url}}" alt="not found">
               {% else %}
@@ -22,97 +20,71 @@
             <hr>
               
             </div>
+
+            <!-- for personal details  -->
             <div>
       
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Username: {{user}}</li>
-                <li class="list-group-item">First Name: {{user.first_name}}</li>
-                <li class="list-group-item">LastName :{{user.last_name}}</li>
-                <li class="list-group-item">Email :{{user.email}}</li>
+              <ul class="list-group ">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  Personal Details</a>
+                <li class="list-group-item list-group-item-action">Username: {{user}}</li>
+                <li class="list-group-item list-group-item-action">First Name: {{user.first_name}}</li>
+                <li class="list-group-item list-group-item-action">LastName :{{user.last_name}}</li>
+                <li class="list-group-item list-group-item-action">Email :{{user.email}}</li>
+                <li class="list-group-item list-group-item-action">Address :{{user.address}}</li>
               </ul>
             </div>
-        </div>
-        <!-- 2nd clo  -->
-        <div class="col-6 " >
-      
-          <div class="card">
-            <div class="card-header">
-              Previous Appointment
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Details</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              Previous Appointment
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Details</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              Previous Appointment
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Details</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              Previous Appointment
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">Details</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
-            </div>
-          </div>
-          
-        </div>
-        <!-- 3rd col  -->
-        <div class="col-4" style="height: 100vh;">
 
-          <div class="row card p-4">
-            <h3>Welcome To Doctors Dashboard</h3>
-          </div>
-          <div class="row">
-            <div class="card h-50" >
-              <div class="card-body">
-                <h5 class="card-title">Necessary Information for Doctors</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-
-            <form class="card p-4">
-              <div class="mb-3">
-                <h4>Change password</h4>
-                <label for="exampleInputEmail1" class="form-label">old Password</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  Post
+                </a>
+                <a href="/blog/addblog"  class="list-group-item list-group-item-action">AddPost</a>
+                <a href="#"  class="list-group-item list-group-item-action">See Published Post</a>
+                <a href="#"  class="list-group-item list-group-item-action">See Draft Post</a>
+                
                 
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">New Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
-          
+     </div>
+<div class="col-sm-9" >
 
-        </div>
-      </div>
-    </div>
- 
-{% endblock content %}
+     <!-- right box  -->
+
+  <div class="container d-sm-flex flex-wrap mx-auto justify-content-center " style="height: 100vh; overflow-y: scroll;">
+      <!-- <div class="d-sm-flex"> -->
+          {% for post in posts %}
+           <div class="card mx-2 my-2 shadow-lg  mb-5 bg-body rounded " style="width: 20rem;height:400px;">
+            <a href="{{post.get_absolute_url}}"><img class="card-img-top img-fluid" style="object-fit: cover; height: 200px; width: 100%;" src=" {{post.image.url}}" alt="not found"></a>
+            <a href="{{post.get_absolute_url}}">
+              
+            </a>
+           <div class="card-body">
+             <h5 class="card-title "><a class="text-decoration-none" href="{{post.get_absolute_url}}"  class="card-title text-center">{{post.title|truncatechars:50}}</a></h5>
+             
+             <div class="   text-center">
+              <button class="btn btn-primery"><a href="{{post.get_absolute_url}}" class="btn btn-primary">Read more</a></button>
+               <div class="d-flex flex-wrap justify-content-center">
+                <h6 class="card-title px-2">Author :{{post.author}}</h6>
+               <h6 class="card-title px-2 text-muted ">{{post.publish | timesince}}</h6>
+            </div>
+            <h6 class="card-title px-2 text-muted ">Status{{post.status}}</h6>
+                 
+              </div>
+            </div>
+          </div>
+        {%endfor%}
+          
+     </div>
+</div>
+
+     
+
+      
+</div>
+
+
+
+
+
+{%endblock content%}
