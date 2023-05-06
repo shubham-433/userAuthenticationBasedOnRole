@@ -11,6 +11,7 @@ class CustomUser(AbstractUser):
     is_doctor = models.BooleanField(default=False)
     profilePic=models.ImageField(upload_to='profileImage',blank=True,null=True)
     address=models.CharField(null=True,blank=True,max_length=200)
+    google_credentials=models.CharField(null=True,blank=True,max_length=20000)
      # Specify related names for the groups and user_permissions fields
     groups = models.ManyToManyField(
         'auth.Group',

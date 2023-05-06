@@ -1,4 +1,4 @@
-from django.shortcuts import render,HttpResponseRedirect,get_object_or_404,redirect
+from django.shortcuts import render,HttpResponseRedirect,get_object_or_404,redirect,HttpResponse
 from django.views import View
 from .forms import *
 from django.contrib import messages
@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.decorators import login_required, user_passes_test
-
+from appointment.models import Appointment
 from django.core.mail import send_mail
 # Create your views here.
 def home(request):
@@ -76,19 +76,22 @@ class ProfileView(View):
     @method_decorator(login_required)
     def get(self,request):
        print(request.user)
+       appointment=Appointment.objects.filter(patient_id=request.user.id)
+       print(appointment)
        if request.user.is_doctor:
             posts= Post.objects.filter(author=request.user.id) 
             # draftPost= Post.objects.filter(Q(author=request.user.id) & Q(status='DF'))
             context={
                 
                 'posts':posts,
-                'user':request.user
+                'user':request.user,
+                'appointments':appointment
 
             }
             print(posts)
             return render(request,"doctorDashboard.html",context)
        else:
-           return render(request,"patientDashboard.html",{'user':request.user})
+           return render(request,"patientDashboard.html",{'user':request.user,'appointments':appointment})
     
 
 # to add blog
@@ -183,3 +186,7 @@ def post_share(request,post_id):
     else:
         form=EmailPostForm()
         return render(request,'share.html',{'post':post,'form':form,'sent':sent})
+
+
+def call_back(request):
+    return HttpResponse("hi")

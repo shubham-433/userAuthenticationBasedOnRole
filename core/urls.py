@@ -21,6 +21,7 @@ urlpatterns = [
     path('blog/<int:year>/<int:month>/<int:day>/<slug:post>/',views.post_details,name='post_detail'),
     # path('blog/categories/<slug:slug>/', views.post_categories, name="post_categories"),
     path('blog/share/<int:post_id>/',views.post_share,name='post_share'),
+    path('google_calendar_callback/',views.call_back,name='call_back'),
 
     
 

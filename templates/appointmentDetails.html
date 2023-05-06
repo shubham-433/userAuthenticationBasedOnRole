@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Appointment Details</h1>
+<h2>Doctor: {{ doctor.name }}</h2>
+{% if appointment %}
+    <ul>
+        <li>Date: {{ appointment.start.dateTime | date }}</li>
+        <li>Start Time: {{ appointment.start.dateTime | time }}</li>
+        <li>End Time: {{ appointment.end.dateTime | time }}</li>
+    </ul>
+{% else %}
+    <p>No appointment details found.</p>
+{% endif %}
+{% endblock %}

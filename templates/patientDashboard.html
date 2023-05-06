@@ -22,6 +22,7 @@
                 <li class="list-group-item">LastName :{{user.last_name}}</li>
                 <li class="list-group-item">Email :{{user.email}}</li>
                 <li class="list-group-item">Address :{{user.address}}</li>
+                <li class="list-group-item"> <a href="/appointment/list" class="btn btn-primary">Book Appointment</a></li>
               </ul>
             </div>
         </div>
@@ -33,9 +34,15 @@
               Previous Appointment
             </div>
             <div class="card-body">
-              <h5 class="card-title">Details</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">See Details</a>
+              {% for appointment in appointments %}
+                <div class="card p-2">
+                  <p>Speciality :{{appointment.speciality}}</p>
+                <p>Appointment Date :{{appointment.appointment_date}}</p>
+                <p>{{appointment.docto_id}}</p>
+                <p>Start Time :{{appointment.appointment_start_time}}</p>
+                <p>End Time : {{appointment.appointment_end_time}}</p>
+                </div>
+              {% endfor %}
             </div>
           </div>
           <div class="card">
